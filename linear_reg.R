@@ -17,7 +17,8 @@ ui = fluidPage(
         label = "Number of Points:",  # Label for the slider
         min = 10,               # Minimum value
         max = 100,              # Maximum value
-        value = 30              # Default value
+        value = 30,             # Default value
+        step = 2
       )
     ),
     
